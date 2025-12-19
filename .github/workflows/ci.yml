@@ -34,4 +34,4 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ci-cd-app:ci .
+          docker build -f Dockerfile -t ci-cd-app:ci .
