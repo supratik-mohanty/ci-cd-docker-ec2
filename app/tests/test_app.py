@@ -1,10 +1,10 @@
 import sys
 import os
 
-# Add project root to Python path
+# Add project root to PYTHONPATH
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from app.app import app  # <-- IMPORTANT FIX
+from app.app import app
 
 
 def test_home():
